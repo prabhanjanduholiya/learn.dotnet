@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using learn.dotnet.IComparable_Vs_IComparer.Comparable;
+using System.Collections.Generic;
 
-namespace learn.dotnet.Collections
+namespace learn.dotnet.IComparable_Vs_IComparer
 {
     public static class StaticData
     {

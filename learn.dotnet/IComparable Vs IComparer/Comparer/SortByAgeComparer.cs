@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace learn.dotnet.Collections.Comparer
+namespace learn.dotnet.IComparable_Vs_IComparer.Comparer
 {
     public class SortByAgeComparer : IComparer<Employee>
     {

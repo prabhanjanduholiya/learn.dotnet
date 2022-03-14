@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace learn.dotnet.Collections
+namespace learn.dotnet.IComparable_Vs_IComparer
 {
-    public class ComparableEmployee : IComparable<ComparableEmployee>
+    public class Employee
     {
         public int Id { get; set; }
 
@@ -15,10 +15,5 @@ namespace learn.dotnet.Collections
         public string LastName { get; set; }
 
         public int Age { get; set; }
-
-        public int CompareTo(ComparableEmployee obj)
-        {
-            return string.Compare(this.FirstName, obj.FirstName);
-        }
     }
 }
