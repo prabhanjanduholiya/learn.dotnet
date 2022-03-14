@@ -1,9 +1,5 @@
 ﻿using learn.dotnet.IComparable_Vs_IComparer.Comparable;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace learn.dotnet.IComparable_Vs_IComparer
 {
@@ -33,6 +29,12 @@ namespace learn.dotnet.IComparable_Vs_IComparer
             return employees;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="employees"></param>
+        /// <param name="comparer"></param>
+        /// <returns></returns>
         public static List<Employee> SortWithIComparerInterface(List<Employee> employees, IComparer<Employee> comparer)
         {
             employees.Sort(comparer);

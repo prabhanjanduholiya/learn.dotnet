@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace learn.dotnet.IComparable_Vs_IComparer
+﻿namespace learn.dotnet.IComparable_Vs_IComparer
 {
     public class Employee
     {

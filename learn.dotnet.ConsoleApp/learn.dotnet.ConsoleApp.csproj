@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\learn.dotnet\learn.dotnet.csproj" />
+    <ProjectReference Include="..\learn.dotnet\Learn.DotNet.csproj" />
   </ItemGroup>
 
 </Project>
