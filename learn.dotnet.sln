@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.DotNet.Design.Pattern
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.DotNet.Tests", "Learn.DotNet.Tests\Learn.DotNet.Tests.csproj", "{C42B0071-FF00-4EFF-9CFC-C2DDA3E1821A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.DotNet.Puzzles", "Learn.DotNet.Puzzles\Learn.DotNet.Puzzles.csproj", "{68B70CC1-85AE-46D5-AF4E-7C573FF8D91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.DotNet.Puzzles.Tests", "Learn.DotNet.Puzzles.Tests\Learn.DotNet.Puzzles.Tests.csproj", "{84AB3F69-72B8-4A04-A0F5-4E3C12B93954}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CA0AE2E8-9361-4C6C-B837-41E9F9D0D272}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,9 +45,22 @@ Global
 		{C42B0071-FF00-4EFF-9CFC-C2DDA3E1821A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C42B0071-FF00-4EFF-9CFC-C2DDA3E1821A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C42B0071-FF00-4EFF-9CFC-C2DDA3E1821A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B70CC1-85AE-46D5-AF4E-7C573FF8D91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B70CC1-85AE-46D5-AF4E-7C573FF8D91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B70CC1-85AE-46D5-AF4E-7C573FF8D91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B70CC1-85AE-46D5-AF4E-7C573FF8D91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84AB3F69-72B8-4A04-A0F5-4E3C12B93954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AB3F69-72B8-4A04-A0F5-4E3C12B93954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AB3F69-72B8-4A04-A0F5-4E3C12B93954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AB3F69-72B8-4A04-A0F5-4E3C12B93954}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9055A508-F307-4B99-93E6-5D040BAB99C5} = {CA0AE2E8-9361-4C6C-B837-41E9F9D0D272}
+		{C42B0071-FF00-4EFF-9CFC-C2DDA3E1821A} = {CA0AE2E8-9361-4C6C-B837-41E9F9D0D272}
+		{84AB3F69-72B8-4A04-A0F5-4E3C12B93954} = {CA0AE2E8-9361-4C6C-B837-41E9F9D0D272}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CAAD5AF0-6FFE-478E-8E9B-F2057053F8AE}
