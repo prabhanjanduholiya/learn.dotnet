@@ -14,11 +14,12 @@ namespace Learn.DotNet.Puzzles.Tests
         }
 
         [TestMethod()]
-        public void IsNotPalindromStringTest()
+        [DataRow("duholiya", false)]
+        public void IsNotPalindromStringTest(string input, bool expectedResult)
         {
-            var result = PalindromProblem.IsPalindromString("duholiya");
+            var result = PalindromProblem.IsPalindromString(input);
 
-            Assert.IsFalse(result);
+            Assert.AreEqual(expectedResult, result);
         }
     }
 }
